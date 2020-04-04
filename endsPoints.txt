@@ -1,0 +1,24 @@
+          endes Points usuarios
+users/login(POST)        = logar usuario
+users/new (POST)         = adicionar usuario
+users/{id}(GET)          = info do usuario{id}
+users/{id}(PUT)          = editar usuario{id}
+users/{id}(DELETE)       = excluir usuario{id}
+users/{id}/feed(GET)     = feed de fotos do usuario{id}
+users/{id}/photos(GET)   = fotos do usuario{id}
+user/{id}/follow(POST)   = seguir usuario{id}
+user/{id}/follow(DELETE) = deseguir usuario{id}
+
+         endes points Photos
+photos/random(GET)          = fotos aleatorias 
+photos/new(POST)            = inserir nova foto
+photos/{id}(GET)            = informação sobre a foto {id}
+photos/{id}(DELETE)         = excluir foto{id}
+photos/{id}/comment(POST)   = inserir comentarios na foto{id}
+photos/{id}/comment(DELETE) = deletar comentario na foto{id}
+photos/{id}/like(POST)      = curtir a foto{id}
+photos/{id}/like(DELETE)    = descurtir o foto{id}
+
+
+
+
